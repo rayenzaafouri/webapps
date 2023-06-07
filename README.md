@@ -88,13 +88,20 @@ it holds the apps created by the user.
 
 
 
-## FAQ
+# FAQ
+Frequently asked questions :
 
-#### Question 1
+### How to export my web apps to another system ?
+Transfer the **/user** folder contained in your app folder to any another system containing the application.
+Make sure to override the previous existing **apps.json** file or merge the files depending on the use case.
+You can refer to the user apps configuration section for further information.
 
-Answer 1
+### How to add more browsers ?
+Edit the **browser-configuration.json** file located in the root folder of the application , add new entries and do not forget to save.
+Please refer to the section of the browser's configuration file for further information.
 
-#### Question 2
+### What CPU architectures are supported ?
+The provided binaries are platform independent therfore the application can perform correctly on any platform running Windows 7 or later. (ARM included).
 
-Answer 2
-
+### Other platforms support ?
+No support is being planned for any other operating System or environnement in the actual  time.
